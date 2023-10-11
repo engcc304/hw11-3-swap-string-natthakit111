@@ -31,7 +31,7 @@ int main() {
     printf( " " ) ;
     for ( int i = l - 1 ; i >= 0 ; i-- ) {
         if ( a[ i ] != '\n' ) { 
-            printf( "%c", a[ i ] );
+            printf( "%c", a[ i ] ) ;
         }//end if
     }//end for
 
